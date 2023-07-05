@@ -1,7 +1,7 @@
 ---
 chain-id: 1
 auto-pay-mode: true
-base-multiplier: 1000
+base-multiplier: 2000
 time-labels:
 - name: 'Time: <1 Hour'
   weight: 0.125
