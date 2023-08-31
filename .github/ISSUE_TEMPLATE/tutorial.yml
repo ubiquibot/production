@@ -8,6 +8,8 @@ body:
       value: |
         ## Help Menu
 
+        Notice: you can see this any time by writing `/help` in any comment on any issue or pull request.
+        
         Here is a list of the available commands. These can be used in any comment body after an issue has been created. You can try them out by creating this issue, then later adding a comment with these commands.
 
         - /start: Assign the origin sender to the issue automatically.
