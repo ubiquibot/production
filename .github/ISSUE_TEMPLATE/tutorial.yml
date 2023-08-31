@@ -1,5 +1,5 @@
 name: "Demo"
-description: If you are coming here for the first time, please feel free to test the bot by filing an issue!
+description: Have a suggestion for how to improve UbiquiBot? Let us know!
 title: "Demo: Testing"
 
 body:
@@ -7,6 +7,9 @@ body:
     attributes:
       value: |
         ## Help Menu
+
+        Here is a list of the available commands. These can be used in any comment body after an issue has been created. You can try them out by creating this issue, then later adding a comment with these commands.
+
         - /start: Assign the origin sender to the issue automatically.
         - /stop: Unassign the origin sender from the issue automatically.
         - /help: List all available commands.
@@ -21,14 +24,14 @@ body:
 
   - type: textarea
     attributes:
-      label: Describe the background or context
-      description: Please let us know what inspired you to write this proposal. Backlinking to specific comments is usually sufficient context.
+      label: Describe the problem here. 
+      description: You can write any type of issue specification for demo purposes.
     validations:
       required: false
   
   - type: textarea
     attributes:
-      label: Describe the solution
-      description: A clear description of what you want to happen. Add any considered drawbacks.
+      label: Describe the solution.
+      description: You can write any type of description of what you want to happen for demo purposes.
     validations:
-      required: true
+      required: false
