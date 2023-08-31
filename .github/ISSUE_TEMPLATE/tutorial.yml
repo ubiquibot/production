@@ -40,5 +40,6 @@ body:
     attributes:
       value: |
         ## Add Labels
-        
-        It's a good idea to set a time and priority label as well so that you can see the bot assist you with pricing the issue. 
+
+        - It's a good idea to set a `Time: ` and `Priority: ` label as well so that you can see the bot assist you with pricing the issue. 
+        - You can pick one `Time` label, and one `Priority` label. The bot will automatically calculate based on a simple lookup table.
