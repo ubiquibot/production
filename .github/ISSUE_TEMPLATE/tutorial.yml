@@ -35,3 +35,8 @@ body:
       description: You can write any type of description of what you want to happen for demo purposes.
     validations:
       required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        It's a good idea to set a time and priority label as well so that you can see the bot assist you with pricing the issue. 
