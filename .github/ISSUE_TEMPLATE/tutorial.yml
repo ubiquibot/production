@@ -1,7 +1,7 @@
 name: "Demo"
 description: You can file a demo issue to test out the bot.
 title: "Demo: Testing"
-labels: ["Priority: 4 (High)", "Time: <1 Day"]
+labels: ["Priority: 3 (High)", "Time: <1 Day"]
 body:
   - type: markdown
     attributes:
