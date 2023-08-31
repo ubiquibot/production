@@ -1,0 +1,34 @@
+name: "Demo"
+description: Have a suggestion for how to improve UbiquiBot? Let us know!
+title: "Demo: Testing"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Help Menu
+        - /start: Assign the origin sender to the issue automatically.
+        - /stop: Unassign the origin sender from the issue automatically.
+        - /help: List all available commands.
+        - /autopay: Toggle automatic payment for the completion of the current issue.
+        - /query: Comments the users multiplier and address
+        - /multiplier: Set the bounty payout multiplier for a specific contributor, and provide the reason for why. 
+          example usage: "/wallet @user 0.5 'Multiplier reason'"
+        - /allow: Set access control. (Admin Only)
+        - /wallet: <WALLET_ADDRESS | ENS_NAME>: Register the hunter's wallet address. 
+          ex1: /wallet 0x0000000000000000000000000000000000000000
+          ex2: /wallet vitalik.eth
+
+  - type: textarea
+    attributes:
+      label: Describe the background or context
+      description: Please let us know what inspired you to write this proposal. Backlinking to specific comments is usually sufficient context.
+    validations:
+      required: false
+  
+  - type: textarea
+    attributes:
+      label: Describe the solution
+      description: A clear description of what you want to happen. Add any considered drawbacks.
+    validations:
+      required: true
