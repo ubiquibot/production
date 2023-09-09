@@ -3,7 +3,7 @@ promotion-comment: "<h6>If you've enjoyed your experience in the DevPool, we'd a
 price-multiplier: 4
 issue-creator-multiplier: 4
 max-concurrent-assigns: 2
-payment-permit-max-price: 1000
+payment-permit-max-price: 4000
 
 comment-incentives: true
 assistive-pricing: true
