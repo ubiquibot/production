@@ -44,6 +44,6 @@ commandSettings:
   - name: autopay
     enabled: true
 
-enable-access-control:
+enableAccessControl:
   label: false
   organization: false
