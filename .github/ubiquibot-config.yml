@@ -45,5 +45,5 @@ commandSettings:
     enabled: true
 
 enableAccessControl:
-  label: false
-  organization: false
+  label: true
+  organization: true
