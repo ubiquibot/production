@@ -31,6 +31,7 @@ disabledCommands: []
 incentives:
   comment:
     elements:
+      blockquote: 0
     totals:
       word: 0
 
